@@ -8,7 +8,7 @@ StripeSync = function (key){
         balance:["retrieve", "listTransactions", "retrieveTransaction"],
         charges:["create", "list", "retrieve", "capture", "refund", "update", "updateDispute", "closeDispute", "setMetadata", "getMetadata"],
         coupons:["create", "list", "retrieve", "del"],
-        customers:["create", "list", "update", "retrieve", "del", "setMetaData", "getMetadata", "createSubscription", "updateSubscription", "cancelSubscription", "listSubscriptions", "createSource", "listCards", "retrieveCard", "updateCard", "deleteCard", "deleteDiscount"],
+        customers:["create", "list", "update", "retrieve", "del", "setMetaData", "getMetadata", "createSubscription", "updateSubscription", "cancelSubscription", "listSubscriptions", "retrieveSubscription", "createSource", "listCards", "retrieveCard", "updateCard", "deleteCard", "deleteDiscount"],
         events:["list", "retrieve"],
         invoiceItems:["create", "list", "update", "retrieve", "del"],
         invoices:["create", "list", "update", "retrieve", "retrieveLines", "retrieveUpcoming", "pay"],
